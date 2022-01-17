@@ -1,2 +1,10 @@
 <!--pages/foodlist/index.wxml-->
-<text>pages/foodlist/index.wxml</text>
+<view class="header">
+  <view class="search">
+    <input placeholder="将会获取焦点" />
+  </view>
+  <view class="btn">
+    <button bindtap="onSearch">搜索</button>
+  </view>
+</view>
+<view class="body"></view>

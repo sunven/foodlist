@@ -35,3 +35,20 @@ page {
 view {
   box-sizing: border-box;
 }
+
+/* 去掉button默认样式 style v2版本 */
+button::after {
+  border: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border-radius: unset;
+  background-color: inherit;
+}
+
+button:not([size='mini']) {
+  min-height: unset !important;
+  margin: 0 !important;
+}

@@ -18,7 +18,7 @@
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
+    "compileHotReLoad": true,
     "lazyloadPlaceholderEnable": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
@@ -28,7 +28,6 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "useIsolateContext": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
@@ -39,7 +38,8 @@
     "showES6CompileOption": false,
     "useCompilerPlugins": [
       "sass"
-    ]
+    ],
+    "ignoreUploadUnusedFiles": true
   },
   "appid": "wx55079d3019117c3a",
   "projectname": "foodlist",

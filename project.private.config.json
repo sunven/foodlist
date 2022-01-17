@@ -57,7 +57,22 @@
         {
           "name": "pages/updateRecordSuccess/index",
           "pathName": "pages/updateRecordSuccess/index",
+          "query": "",
           "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/foodlist/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/foodlist1/index",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
         }
       ]
     }
