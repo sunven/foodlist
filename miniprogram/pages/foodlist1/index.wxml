@@ -1,0 +1,22 @@
+<!--pages/foodlist/index.wxml-->
+<view class="main">
+  <view class="header">111</view>
+  <view class="body">
+    <view class="items">
+      <view class="item" bindtap="go">
+        <view class="pic"></view>
+        <view class="title">
+          <text>food</text>
+        </view>
+      </view>
+      <view class="item">111222</view>
+      <view class="item">111222</view>
+      <view class="item">111222</view>
+      <view class="item">111222</view>
+      <view class="item">111222</view>
+      <view class="item">111222</view>
+      <view class="item">111222</view>
+    </view>
+  </view>
+  <view class="footer"></view>
+</view>
