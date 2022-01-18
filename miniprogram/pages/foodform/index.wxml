@@ -1,0 +1,13 @@
+<!--pages/foodform/foodform.wxml-->
+<view class="container">
+  <view>
+    <mp-searchbar></mp-searchbar>
+    <input class="weui-input" model:value="{{name}}" placeholder="请输入食物名" />
+    <input class="weui-input" model:value="{{name}}" placeholder="请输入食物名" />
+    <input class="weui-input" model:value="{{name}}" placeholder="请输入食物名" />
+    <button type="primary" bindtap="onSave">新增</button>
+  </view>
+</view>
+<view class="container">
+  <view wx:for="{{tagList}}" wx:key="_id">{{item.name}}</view>
+</view>

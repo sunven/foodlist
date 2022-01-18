@@ -71,6 +71,20 @@
           "name": "",
           "pathName": "pages/foodlist1/index",
           "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/taglist/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/foodform/index",
+          "query": "",
           "scene": null,
           "launchMode": "default"
         }

@@ -1,10 +1,13 @@
 <!--pages/foodlist/index.wxml-->
 <view class="header">
   <view class="search">
-    <input placeholder="将会获取焦点" />
+    <input model:value="{{keyword}}" placeholder="将会获取焦点" />
+
   </view>
   <view class="btn">
     <button bindtap="onSearch">搜索</button>
   </view>
 </view>
-<view class="body"></view>
+<view class="body">
+  <view bindtap="onSearch" wx:for="{{searchHistoryList}}" data-item="{{item}}" wx:key="_id">{{item.keyword}}</view>
+</view>

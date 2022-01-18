@@ -22,3 +22,16 @@
     }
   }
 }
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  view {
+    background-color: bisque;
+    margin-left: 10rpx;
+    margin-top: 10rpx;
+    flex: 0 0 calc((100% - 50rpx) / 4);
+    &:nth-child(4n) {
+      margin-right: 10rpx;
+    }
+  }
+}
